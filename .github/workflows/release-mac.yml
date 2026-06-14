@@ -1,6 +1,7 @@
 name: release-mac
 on:
   push:
+    branches: [ci/macos-replay-buffer-actions-test]
     tags: ['v*-mac', 'v*']
   pull_request:
     branches: [main]
